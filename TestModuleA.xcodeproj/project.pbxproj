@@ -11,8 +11,8 @@
 		B1B7A79522FA7AAF004284A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7A79422FA7AAF004284A3 /* ViewController.m */; };
 		B1B7A79A22FA7AB0004284A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B7A79922FA7AB0004284A3 /* Assets.xcassets */; };
 		B1B7A7A022FA7AB0004284A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7A79F22FA7AB0004284A3 /* main.m */; };
-		B1B7A7A922FA7ADB004284A3 /* TMAController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7A7A822FA7ADB004284A3 /* TMAController.m */; };
 		B1E833CA22FAA90A00B0766B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E833C922FAA90A00B0766B /* UIKit.framework */; };
+		B1E833CD22FAAA9200B0766B /* ATestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E833CC22FAAA9200B0766B /* ATestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		B1B7A79922FA7AB0004284A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1B7A79E22FA7AB0004284A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B7A79F22FA7AB0004284A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1B7A7A722FA7ADB004284A3 /* TMAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAController.h; sourceTree = "<group>"; };
-		B1B7A7A822FA7ADB004284A3 /* TMAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAController.m; sourceTree = "<group>"; };
 		B1E833C922FAA90A00B0766B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1E833CB22FAAA9200B0766B /* ATestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATestObject.h; sourceTree = "<group>"; };
+		B1E833CC22FAAA9200B0766B /* ATestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		B1B7A7A622FA7ABC004284A3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B1B7A7A722FA7ADB004284A3 /* TMAController.h */,
-				B1B7A7A822FA7ADB004284A3 /* TMAController.m */,
+				B1E833CB22FAAA9200B0766B /* ATestObject.h */,
+				B1E833CC22FAAA9200B0766B /* ATestObject.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B7A7A922FA7ADB004284A3 /* TMAController.m in Sources */,
+				B1E833CD22FAAA9200B0766B /* ATestObject.m in Sources */,
 				B1B7A79522FA7AAF004284A3 /* ViewController.m in Sources */,
 				B1B7A7A022FA7AB0004284A3 /* main.m in Sources */,
 				B1B7A79222FA7AAF004284A3 /* AppDelegate.m in Sources */,
