@@ -12,6 +12,7 @@
 		B1B7A79A22FA7AB0004284A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B7A79922FA7AB0004284A3 /* Assets.xcassets */; };
 		B1B7A7A022FA7AB0004284A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7A79F22FA7AB0004284A3 /* main.m */; };
 		B1B7A7A922FA7ADB004284A3 /* TMAController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B7A7A822FA7ADB004284A3 /* TMAController.m */; };
+		B1E833CA22FAA90A00B0766B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E833C922FAA90A00B0766B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B1B7A79F22FA7AB0004284A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1B7A7A722FA7ADB004284A3 /* TMAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAController.h; sourceTree = "<group>"; };
 		B1B7A7A822FA7ADB004284A3 /* TMAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAController.m; sourceTree = "<group>"; };
+		B1E833C922FAA90A00B0766B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E833CA22FAA90A00B0766B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				B1B7A78F22FA7AAF004284A3 /* TestModuleA */,
 				B1B7A78E22FA7AAF004284A3 /* Products */,
+				B1E833C822FAA90900B0766B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +80,14 @@
 				B1B7A7A822FA7ADB004284A3 /* TMAController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1E833C822FAA90900B0766B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E833C922FAA90A00B0766B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
